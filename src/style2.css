@@ -1,5 +1,5 @@
 .jumbotron {
-      background-color: #fc3320;
+      background-color: #275bad;
       color: #fff;
       padding: 100px 25px;
       margin-bottom: 0px;
@@ -10,7 +10,7 @@
 }
 .margin {margin-bottom: 45px;}
 .bg-1 { 
-      background-image: linear-gradient(#fc3320,#ffffff);
+      background-image: linear-gradient(#275bad,#ffffff);
       color: #ffffff;
   }
   .container-fluid {
@@ -40,7 +40,7 @@
 }
 .navbar {
       margin-bottom: 0;
-      background-color: #fc3320;
+      background-color: #275bad;
       z-index: 9999;
       border: 0;
       font-size: 12px !important;
@@ -52,7 +52,7 @@
       color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-      color: #fc3320 !important;
+      color: #275bad !important;
       background-color: #fff !important;
   }
   .navbar-default .navbar-toggle {
@@ -69,7 +69,7 @@
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
-      color: #fc3320;
+      color: #275bad;
   }
 /* For About Page */
 .bg-grey {
@@ -77,12 +77,12 @@
 }
 
 .logo {
-    color: #fc3320;
+    color: #275bad;
     font-size: 200px;
 }
 /* For Pricng Page*/
 .panel {
-      border: 1px solid #fc3320; 
+      border: 1px solid #275bad; 
       border-radius:0 !important;
       transition: box-shadow 0.5s;
   }
@@ -90,13 +90,13 @@
       box-shadow: 5px 0px 40px rgba(0,0,0, .2);
   }
   .panel-footer .btn:hover {
-      border: 1px solid #fc3320;
+      border: 1px solid #275bad;
       background-color: #fff !important;
-      color: #fc3320;
+      color: #275bad;
   }
   .panel-heading {
       color: #fff !important;
-      background-color: #fc3320 !important;
+      background-color: #275bad !important;
       padding: 25px;
       border-bottom: 1px solid transparent;
       border-top-left-radius: 0px;
@@ -116,5 +116,94 @@
   }
   .panel-footer .btn {
       margin: 15px 0;
-      background-color: #fc3320;
+      background-color: #275bad;
       color: #fff;
+      
+/*       For Checkout Page */
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.containerCheckout {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
