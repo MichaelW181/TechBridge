@@ -207,3 +207,8 @@ span.price {
   float: right;
   color: grey;
 }
+/*       For Processed Page */
+.alert{
+	padding: 200px !important;
+  margin: 100px !important;
+}
